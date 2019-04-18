@@ -9,4 +9,3 @@ class Netid:
                     if field == str(user):
                         print("This user is in system")
                         return True
-                    return False

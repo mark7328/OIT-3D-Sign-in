@@ -15,7 +15,7 @@ class Record:
     def netid(file, current):
         state = False
         count = 1
-        while state == False:
+        while state != True:
             if count == 1:
                 user = input('Enter your netid: ')
             else:
